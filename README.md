@@ -15,6 +15,21 @@ Instrucciones para instalar:
 
 ```bash
 ng new app-movie-shop-lq --routing --style=scss
+```
 
-# Instalacionde Dependencias y librerias:
+# Instalación de Dependencias y Librerias:
+ 
+```bash
+npm install tailwindcss @tailwindcss/postcss postcss --save
 
+**Nota:**  Crear un archivo en la raiz ".postcssrc.json" y pega el siguiente codigo
+
+```{
+  "plugins": {
+    "@tailwindcss/postcss": {}
+  }
+}```
+
+npm install flowbite --save
+
+```
