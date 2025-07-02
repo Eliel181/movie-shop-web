@@ -25,10 +25,17 @@ ng new app-movie-shop-lq --routing --style=scss
 npm install tailwindcss @tailwindcss/postcss postcss --save
 ```
 **Nota:**  Crear un archivo en la raiz ".postcssrc.json" y pega el siguiente codigo
+```
+{
+  "plugins": {
+    "@tailwindcss/postcss": {}
+  }
+}
 
+```
 
 ```bash
-
+# Instalr flowbite
 npm install flowbite --save
 
 ```
