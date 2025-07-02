@@ -26,14 +26,20 @@ Estructura del Proyecto y Comando
 # Servicios
 ng g s core/services/firestore --skip-tests
 ng g s core/services/auth --skip-tests
-
+```
+```bash
 # Componentes
 ng g c layout/header --skip-tests
 ng g c layout/navbar --skip-tests
 ng g c layout/footer --skip-tests
 ```
-
-
+```bash
+# Interfaces
+ ng g i core/interfaces/usuario --type=model
+ ng g i core/interfaces/libro --type=model 
+ ng g i core/interfaces/orden --type=model
+ ng g i core/interfaces/prestamo --type=model
+```
 
 # Instalación de Dependencias y Librerias:
  
