@@ -4,8 +4,8 @@ Descripción breve del proyecto, su propósito y características principales.
 
 ## Tabla de Contenidos
 - [Instalación](#instalación)
-- [Uso](#uso)
 - [Comandos](#comandos)
+- [Uso](#uso)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
@@ -17,6 +17,23 @@ Instrucciones para instalar:
 # Crear el proyecto
 ng new app-movie-shop-lq --routing --style=scss
 ```
+
+## Comandos
+
+Estructura del Proyecto y Comando
+
+```bash
+# Servicios
+ng g s core/services/firestore --skip-tests
+ng g s core/services/auth --skip-tests
+
+# Componentes
+ng g c layout/header --skip-tests
+ng g c layout/navbar --skip-tests
+ng g c layout/footer --skip-tests
+```
+
+
 
 # Instalación de Dependencias y Librerias:
  
