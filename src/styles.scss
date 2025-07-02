@@ -4,3 +4,11 @@
 
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
+
+@theme{
+ --color-fondo: #2d222f;
+ --color-vino-oscuro: #4B2138;
+ --color-rosado-oscuro: #6D3C52;
+
+ --font-cursiva:"Bad Script", cursive;
+}
