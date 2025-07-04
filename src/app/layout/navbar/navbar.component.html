@@ -1,4 +1,4 @@
-<nav class="bg-white dark:bg-fondo/50 antialiased shadow-xl shadow-pink-400/25 ">
+<nav class="bg-fondo antialiased shadow-xl shadow-pink-400/25 rounded-b-xl lg:rounded-none inset-shadow-sm inset-shadow-pink-500/70 fixed top-0 left-0 w-full z-50">
   <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 py-4">
     <div class="flex items-center justify-between">
 
@@ -13,27 +13,27 @@
 
         <ul class="hidden lg:flex items-center justify-start gap-6 md:gap-8 py-3 sm:justify-center">
           <li>
-            <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+            <a href="#" title="" class="flex text-sm font-medium text-white hover:text-pink-700 ">
               Inicio
             </a>
           </li>
           <li class="shrink-0">
-            <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+            <a href="#" title="" class="flex text-sm font-medium text-white hover:text-pink-700 ">
               Peliculas
             </a>
           </li>
           <li class="shrink-0">
-            <a href="#" title="" class="flex text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+            <a href="#" title="" class="flex text-sm font-medium text-white hover:text-pink-700 ">
               Usuarios
             </a>
           </li>
           <li class="shrink-0">
-            <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+            <a href="#" title="" class="text-sm font-medium text-white hover:text-pink-700 ">
               Today's Deals
             </a>
           </li>
           <li class="shrink-0">
-            <a href="#" title="" class="text-sm font-medium text-gray-900 hover:text-primary-700 dark:text-white dark:hover:text-primary-500">
+            <a href="#" title="" class="text-sm font-medium text-white hover:text-pink-700 ">
               Sell
             </a>
           </li>
@@ -42,7 +42,7 @@
 
       <div class="flex items-center lg:space-x-2">
 
-        <button id="myCartDropdownButton1" data-dropdown-toggle="myCartDropdown1" type="button" class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-700 text-m font-medium leading-none text-gray-900 dark:text-white cursor-pointer ">
+        <button id="myCartDropdownButton1" type="button" class="inline-flex items-center rounded-lg justify-center p-2 hover:bg-gray-800 text-m font-medium leading-none text-white cursor-pointer ">
           <span class="sr-only">
             Cart
           </span>
@@ -51,35 +51,41 @@
           </svg>
         </button>
 
-        <button id="userDropdownButton1" data-dropdown-toggle="userDropdown1" type="button" class="inline-flex items-center rounded-lg justify-center p-2 text-sm font-medium leading-none text-gray-900 dark:text-white cursor-pointer" hidden>
+        <button id="userDropdownButton1" data-dropdown-toggle="userDropdown1" type="button" class="inline-flex items-center rounded-lg justify-center p-2 text-sm font-medium leading-none text-white cursor-pointer">
           <img src="../../../assets/logo.png" alt="imagen perfil" class="rounded-full w-[2.5rem] border-3 border-pink-500/100 hover:shadow-xl shadow-cyan-500/50 transition duration-700 ease-in-out ">
         </button>
 
         <div id="userDropdown1" class="hidden z-10 w-56 divide-y divide-gray-100 overflow-hidden overflow-y-auto rounded-lg bg-white antialiased shadow dark:bg-fondo dark:bg-fondo">
           <ul class="p-2 text-start text-sm font-medium text-gray-900 dark:text-white">
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> Mi Perfil </a></li>
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> My Orders </a></li>
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> Settings </a></li>
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> Favourites </a></li>
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> Delivery Addresses </a></li>
-            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600"> Billing Data </a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Mi Perfil </a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Mis Pedidos</a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Settings </a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Favourites </a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Delivery Addresses </a></li>
+            <li><a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-fondo-oscuro"> Billing Data </a></li>
           </ul>
 
           <div class="p-2 text-sm font-medium text-gray-900 dark:text-white">
-            <a href="#" title="" class="inline-flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm  bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br shadow-lg shadow-red-500/50 dark:shadow-lg"> Cerrar Sesión </a>
+            <a href="#" title="" class="inline-flex w-full items-center justify-between gap-2 rounded-md px-3 py-2 text-sm  bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br shadow-lg shadow-red-500/50 dark:shadow-lg">
+              Cerrar Sesión
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"/>
+              </svg>
+            </a>
+
           </div>
         </div>
 
-        <button routerLink="login" class="hidden lg:block text-gray-200 font-bold cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-full hover:shadow-lg shadow-green-400/50 transition duration-500 " >
+        <button routerLink="login" class="hidden lg:block text-gray-200 font-bold cursor-pointer bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-full hover:shadow-lg shadow-green-400/50 transition duration-500 " >
           Inicia Sesión
         </button>
 
-        <button routerLink="register" class="hidden lg:block text-gray-200 font-bold cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-full hover:shadow-lg shadow-green-400/50 transition duration-500 " >
+        <button routerLink="register" class="hidden lg:block text-gray-200 font-bold cursor-pointer bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-full hover:shadow-lg shadow-green-400/50 transition duration-500 " >
           Resgitraté
         </button>
 
         <!-- Burger Menu -->
-        <button type="button" [attr.aria-expanded]="isMenuOpen" (click)="toggleMenu()" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex lg:hidden items-center justify-center hover:bg-gray-100 rounded-md dark:hover:bg-gray-700 p-2 text-gray-900 dark:text-white">
+        <button type="button" [attr.aria-expanded]="isMenuOpen" (click)="toggleMenu()" data-collapse-toggle="ecommerce-navbar-menu-1" aria-controls="ecommerce-navbar-menu-1" aria-expanded="false" class="inline-flex lg:hidden items-center justify-center rounded-md hover:bg-gray-700 p-2 text-white">
           <span class="sr-only">
             Open Menu
           </span>
@@ -91,29 +97,29 @@
       </div>
     </div>
 
-    <div id="ecommerce-navbar-menu-1" class="overflow-hidden transition-all duration-500 ease-in-out origin-top bg-gray-50 bg-gris-rosado/50 border border-pink-600 rounded-lg py-3 hidden px-4 mt-4"
+    <div id="ecommerce-navbar-menu-1" class="overflow-hidden transition-all duration-500 ease-in-out origin-top bg-gray-50 bg-gris-rosado/70 border border-pink-600 rounded-lg py-3 hidden px-4 mt-4 inset-shadow-sm inset-shadow-pink-500/70"
         [ngClass]="{
         'max-h-[500px] opacity-100 scale-y-100 py-3': isMenuOpen,
         'max-h-0 opacity-0 scale-y-0 py-0': !isMenuOpen
       }">
       <ul class="text-white text-lg font-medium text-center space-y-4">
         <li>
-          <a href="#" class="text-primary-500">Inicio</a>
+          <a href="#" class="block text-primary-500 hover:bg-gris-rosado focus:bg-gris-rosado rounded-lg py-2">Inicio</a>
         </li>
         <li>
-          <a href="#" class="text-primary-500">Peliculas</a>
+          <a href="#" class="block text-primary-500 hover:bg-gris-rosado focus:bg-gris-rosado rounded-lg py-2">Peliculas</a>
         </li>
         <li>
-          <a href="#" class="text-primary-500">Usuarios</a>
+          <a href="#" class="block text-primary-500 hover:bg-gris-rosado focus:bg-gris-rosado rounded-lg py-2">Usuarios</a>
         </li>
         <li>
-          <a href="#" class="text-primary-500">Socios</a>
+          <a href="#" class="block text-primary-500 hover:bg-gris-rosado focus:bg-gris-rosado rounded-lg py-2">Socios</a>
         </li>
-        <li class="text-gray-200 font-bold cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-lg">
-          <a routerLink="login" routerLinkActive="router-link-active"  class="">Inicio Sesión</a>
+        <li class="text-gray-200 font-bold cursor-pointer bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-lg">
+          <a routerLink="login" routerLinkActive="router-link-active"  class="block">Inicio Sesión</a>
         </li>
-        <li class="text-gray-200 font-bold cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-lg">
-          <a routerLink="register" class="w-full">Registraté</a>
+        <li class="text-gray-200 font-bold cursor-pointer bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl p-2.5 rounded-lg">
+          <a routerLink="register" class="block">Registraté</a>
         </li>
       </ul>
     </div>
